@@ -14,6 +14,8 @@
 		2F7EFB90207621A60038D846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7EFB8E207621A60038D846 /* LaunchScreen.storyboard */; };
 		2F7EFB9B207621A60038D846 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EFB9A207621A60038D846 /* CalculatorTests.swift */; };
 		2F7EFBA6207621A60038D846 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EFBA5207621A60038D846 /* CalculatorUITests.swift */; };
+		2F7EFBB42076237E0038D846 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F7EFBB32076237E0038D846 /* timg.jpeg */; };
+		2F7EFBB6207767120038D846 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EFBB5207767120038D846 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2F7EFBA1207621A60038D846 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7EFBA5207621A60038D846 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		2F7EFBA7207621A60038D846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7EFBB32076237E0038D846 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		2F7EFBB5207767120038D846 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		2F7EFB79207621A60038D846 = {
 			isa = PBXGroup;
 			children = (
+				2F7EFBB5207767120038D846 /* CalculatorBrain.swift */,
+				2F7EFBB32076237E0038D846 /* timg.jpeg */,
 				2F7EFB84207621A60038D846 /* Calculator */,
 				2F7EFB99207621A60038D846 /* CalculatorTests */,
 				2F7EFBA4207621A60038D846 /* CalculatorUITests */,
@@ -237,6 +243,7 @@
 			files = (
 				2F7EFB90207621A60038D846 /* LaunchScreen.storyboard in Resources */,
 				2F7EFB8D207621A60038D846 /* Assets.xcassets in Resources */,
+				2F7EFBB42076237E0038D846 /* timg.jpeg in Resources */,
 				2F7EFB8B207621A60038D846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7EFBB6207767120038D846 /* CalculatorBrain.swift in Sources */,
 				2F7EFB88207621A60038D846 /* ViewController.swift in Sources */,
 				2F7EFB86207621A60038D846 /* AppDelegate.swift in Sources */,
 			);
